@@ -1,0 +1,40 @@
+/* import google font Work sans */
+/* itp colors #080087 #0bade1 */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  margin: 3em;
+}
+header > div {
+  margin: 10px 95px 20px;
+}
+header > div > h1 {
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+header > img {
+  height: 100px;
+}
+
+table {
+  border: 1px solid #0bade1;
+  background-color: #0bade1;
+  color: aliceblue;
+  padding: 9em;
+  width: 100%;
+}
+th {
+  text-align: left;
+  font-size: 4vw;
+  padding-bottom: 1em;
+}
+footer {
+  border-top: 1px solid #0bade1;
+}
+footer > p {
+  margin: 3em;
+}
