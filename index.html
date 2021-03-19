@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="m-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -18,8 +19,8 @@
 
     </header>
 
-    <main>
-        <table>
+    <main >
+        <table id="main">
             <thead>
                 <tr>
                     <th>
@@ -38,11 +39,88 @@
         </table>
 
     </main>
+    <div id="card-section">
+        <div class="ui special cards">
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui inverted button">
+                          <a href="https://github.com/haticed">
+                        <i class="github icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img src="/images/hatice-avatar.png">
+              </div>
+              <div class="content">
+                <a class="header" href="https://github.com/haticed" >Hatice</a>
+                <div class="meta">
+                  <span class="date">Frontend developer trainee</span>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">
+                            <a href="https://github.com/JasminAtay">
+                          <i class="github icon"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="/images/jasmin-avatar.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://github.com/JasminAtay" >Yasemin</a>
+                  <div class="meta">
+                    <span class="date">Frontend developer trainee</span>
+                  </div>
+                </div>
+                </div>
+                <!--  -->
+                <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <div class="ui inverted button">
+                                <a href="https://github.com/mat-it">
+                              <i class="github icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img src="/images/mat-it-avatar.png">
+                    </div>
+                    <div class="content">
+                      <a class="header" href="https://github.com/mat-it" >Mahmut</a>
+                      <div class="meta">
+                        <span class="date">Frontend developer trainee</span>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
 
     <footer>
         <p>
             ITP Bootcamp © 2021 
         </p>
+        <button>unformatted button</button>
+        <button class="ui primary basic button">semantic ui button</button>
         <img src="images/footer.png" alt="ITP" style="width:100%;" />
     </footer>
 
